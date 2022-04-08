@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qy3X2LMq8aaD3+Epn0pnXlra+9cj0MsTQz4gMMQhBMcxcv3AsxpbsltCpMDy49pNRrEm/+YpyMA+FDn86UNm/w==",
+  "success": true,
+  "projectFilePath": "E:\\JetBrains Rider 2021.1.5\\projects\\Encryption\\Encryption\\Encryption.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ProBook\\.nuget\\packages\\simplebase\\3.1.0\\simplebase.3.1.0.nupkg.sha512",
+    "C:\\Users\\ProBook\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
