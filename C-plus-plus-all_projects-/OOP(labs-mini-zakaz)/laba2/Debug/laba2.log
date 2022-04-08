@@ -1,0 +1,4 @@
+﻿  laba2.cpp
+E:\University\С++\OOP(labs-mini-zakaz)\laba2\laba2.cpp(22,16): warning C4834: discarding return value of function with 'nodiscard' attribute
+E:\University\С++\OOP(labs-mini-zakaz)\laba2\laba2.cpp(71,16): warning C4834: discarding return value of function with 'nodiscard' attribute
+  laba2.vcxproj -> E:\University\С++\OOP(labs-mini-zakaz)\laba2\Debug\laba2.exe

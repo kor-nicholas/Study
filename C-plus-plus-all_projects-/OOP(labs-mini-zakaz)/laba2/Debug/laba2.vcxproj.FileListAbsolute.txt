@@ -1,0 +1,2 @@
+E:\University\С++\OOP(labs-mini-zakaz)\laba2\Debug\laba2.exe
+E:\University\С++\OOP(labs-mini-zakaz)\laba2\Debug\laba2.pdb

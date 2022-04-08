@@ -1,0 +1,4 @@
+E:\University\ekzamen\task_ekz_1\Debug\task_ekz_1.exe
+E:\University\ekzamen\task_ekz_1\Debug\task_ekz_1.pdb
+E:\University\С++\ekzamen\task_ekz_1\Debug\task_ekz_1.exe
+E:\University\С++\ekzamen\task_ekz_1\Debug\task_ekz_1.pdb
