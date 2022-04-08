@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 
+# https://github.com/pythontoday/scrap_tutorial
 
 def collect_data(city_code='2398'):
     cur_time = datetime.datetime.now().strftime('%d_%m_%Y_%H_%M')
