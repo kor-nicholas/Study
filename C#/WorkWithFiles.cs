@@ -13,6 +13,10 @@ namespace HelloWorldWebAPI_Cat_
 
         public void TestReadFile()
         {
+            File.ReadAllText("person.json");
+
+// ----------------------------------------------------------------------------------------------------------
+
             /*
             * Peek() - вовзращает следующий символ, если его нету, то -1
             * Read() - считывает данные в массив
@@ -39,6 +43,10 @@ namespace HelloWorldWebAPI_Cat_
 
         public void TestWriteFile()
         {
+            File.WriteAllText("person.json", Newtonsoft.Json.JsonConvert.SerializeObject(person));
+
+// ----------------------------------------------------------------------------------------------------------
+
             /*
              * Flush() - записывает в файл данные из буфера и очищает буфер
              * Write() - записывает простые типы
