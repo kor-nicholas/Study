@@ -114,6 +114,13 @@ namespace Study_CSharp_Design
 
             //Следующий вызов не зависит от настроек и всегда ожидает точку в качестве разделителя:
             number2 = double.Parse("34.42", CultureInfo.InvariantCulture);
+            
+            // DateTime
+            
+            DateTime date1 = new DateTime(2015, 7, 20, 18, 30, 25); // год - месяц - день - час - минута - секунда
+            Console.WriteLine(date1); // 20.07.2015 18:30:25
+            Console.WriteLine(DateTime.Now); // текущая дата + время
+            
         }
     }
 }
