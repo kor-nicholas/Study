@@ -19,7 +19,8 @@ namespace Study_CSharp_Design
         * CTRL + Press - help (like ALT + Enter, but show what we can doing, not change)
         * CTRL + M, CTRL + O - сворачивать all #regoins
         * CTRL + M, CTRL + M - сворачивать определенное место, где стоит курсов
-        * 
+        * CTRL + R + CTRL + R - rename 
+        *
         * Конструктор - выделить все свойства -> создаьб конструктор
         */
 
