@@ -120,6 +120,9 @@ namespace Study_CSharp_Design
             DateTime date1 = new DateTime(2015, 7, 20, 18, 30, 25); // год - месяц - день - час - минута - секунда
             Console.WriteLine(date1); // 20.07.2015 18:30:25
             Console.WriteLine(DateTime.Now); // текущая дата + время
+            Console.WriteLine(DateTime.Parse("25.04.2022 9:00", System.Globalization.CultureInfo.CreateSpecificCulture("uk-UA"))); // 
+            // https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo.createspecificculture?view=net-6.0
+            // просмотреть все какие есть регионы (uk-UA)
             
         }
     }
