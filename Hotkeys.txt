@@ -1,0 +1,36 @@
+Windows: 
+Win + E - open Explorer
+Win + right/left/up/down - change size app / work with two windows
+Alt + F4 - close app
+Ctrl + up/down - scroll in cmd
+Win + R -> cmd - open cmd
+Alt + Tab - change window
+
+Browser: 
+Ctrl + W - close tab
+Ctrl + L - start write address
+Ctrl + T - new tab
+Ctrl + M - new browser-window
+Ctrl + Tab - change tab
+Ctrl + F - search
+F12 - to development
+
+IDEA (Visual Studio):
+Ctrl + D - duplicate
+Ctrl + Y - delete str (!!! check !!!)
+Shift + Home / Shift + End - select
+Alt + Insert - generate constructor/... (!!! check !!!)
+Shift + down - select all properties to generate code
+Shift - select str (!!! check !!!)
+Ctrl + K && Ctrl + D - format
+Ctrl + K && Ctrl + C - comment
+Ctrl + K && Ctrl + U - uncomment
+prop - propety
+Left Alt - 
+Ctrl + Press - help (like ALT + Enter, but show what we can doing,not change)
+Ctrl + R && Ctrl + R - rename
+
+Optional: 
+Win + P - twice monitor
+Win + L - lock
+Ctrl + Shift + Esc - task manager
