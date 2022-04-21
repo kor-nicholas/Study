@@ -17,6 +17,8 @@ Ctrl + F - search
 F12 - to development
 Shift + Tab - unTab in page
 Alt + left - Back
+Ctrl + Shift + O - открыть закладки
+Ctrl + D - save page in закладки
 
 IDEA (Visual Studio):
 Ctrl + D - duplicate
