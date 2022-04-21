@@ -5,6 +5,7 @@ Alt + F4 - close app
 Ctrl + up/down - scroll in cmd
 Win + R -> cmd - open cmd
 Alt + Tab - change window
+Alt + left - Back
 
 Browser: 
 Ctrl + W - close tab
@@ -14,6 +15,8 @@ Ctrl + M - new browser-window
 Ctrl + Tab - change tab
 Ctrl + F - search
 F12 - to development
+Shift + Tab - unTab in page
+Alt + left - Back
 
 IDEA (Visual Studio):
 Ctrl + D - duplicate
@@ -29,6 +32,15 @@ prop - propety
 Left Alt - 
 Ctrl + Press - help (like ALT + Enter, but show what we can doing,not change)
 Ctrl + R && Ctrl + R - rename
+
+Telegram:
+Ctrl + Q - close
+Ctrl + M - свернуть
+Ctrl + L - lock
+Ctrl + 0 - избранное
+Ctrl + 1,2,... - change folder 
+Ctrl + Tab - change chat down
+Ctrl + Shift + Tab - change chat up
 
 Optional: 
 Win + P - twice monitor
