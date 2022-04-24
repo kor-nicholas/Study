@@ -34,7 +34,7 @@ Alt + Insert - generate constructor/... (!!! check !!!)
 Shift + down - select all properties to generate code
 Shift - select str (!!! check !!!)
 prop - propety
-Left Alt - choose some strings(???)
+Left Alt - choose some strings(???) (Ctrl + F2 in VS Code)
 
 Telegram:
 Ctrl + Q - close
