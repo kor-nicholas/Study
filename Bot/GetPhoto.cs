@@ -3,3 +3,5 @@ if(update.Update.Type == UpdateType.Message && Context.Update.Message.Type == Me
 {
     //...
 }
+
+update.Update.Message.Photo[0].FileId
