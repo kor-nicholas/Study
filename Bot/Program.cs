@@ -16,6 +16,11 @@ class Program : BotfProgram
     [Action("/start", "start the bot")]
     public async Task Start()
     {
+        // https://github.com/deploy-f/botf/blob/f308e95e42f8ed04281f6c5930974f32e2de385b/Deployf.Botf/System/UpdateContextExtensions.cs
+        // FromId - user id
+        // ChatId - chat id
+        // Context.GetUsername()
+        
         await Send($"Hi! What is your name?");
 
         var name = await AwaitText(() => Send("Use /start to try again"));
