@@ -1,0 +1,15 @@
+git init ProjectName
+dotnet new gitignore
+dotnet new --list
+dotnet new sln (create sln file with name folder)
+dotnet new console -o NameFolder
+dotnet sln add NameFolder (relationship between sln and csproj)
+dotnet add package ...
+dotnet remove package ...
+dotnet list package (nuget packages)
+dotnet add reference ../ProjectName -> ../ProjectName/ProjectName.csproj
+dotnet restore (restore nuget packages) ???
+dotnet build
+dotnet clean (clean bin/Debug/.net6.0/)
+dotnet run
+dotnet publish -p:PublishSingleFile=true (all files from Debug/ ... folder in 1 file) -r win-x64 (platform, windoes/Linux/ ..., google Windws/Linux RIDs) --self-contained false (framework containes, size) -> create folder with name RIDs/Publish to run priject
