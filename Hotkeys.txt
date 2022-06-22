@@ -41,6 +41,34 @@ Ctrl + Shift + P - command settings
 Ctrl + F2 - choose some strings
 Shift + Alt + F - format
 
+NVIM:
+Ctrl + O - init.vim
+Alt + I - install plugins
+jj(in Insert mode) - Esc
+Ctrl + C - global copy
+Ctrl + U - Backspace (in Insert mode)
+Leader + Q - close window
+Alt + Q - close Telescope
+Ctrl + Z - no higlight
+Alt + h/j/k/l - set window (tmux)
+Leader + h/j/k/l - set window (nvim)
+Ctrl + h/l - change window (bufferline)
+Shift + h/l - move window (bufferline)
+Shift + s/d - close window (bufferline, current window to end)
+Ctrl + T - Tagbar
+Ctrl + F - Telescope
+Leader + F - Autoformat
+Leader + Leader - jump to other tag (html)
+T - terminal
+Leader + gg - LazyGit
+Leader + yc - Yode (code in right and you can write code in this "window" and in main editor)
+Leader + T - easymotion
+gc - comment/uncomment
+ysiw" (test -> "test")
+cs"' ("test" -> 'test')
+ds' ('test' -> test)
+Leader + X - Tree (o - open, r - rename, a - create, Ctrl + V/Ctrl + X - vertical/horizontal)
+
 Telegram:
 Ctrl + Q - close
 Ctrl + M - свернуть
