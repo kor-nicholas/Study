@@ -70,6 +70,18 @@ namespace Cats.DAL.Repositories.EfCore
                 context.SaveChanges();
             }
         }
+        
+        public void DeleteAll()
+        {
+            using (var context = new CatsContext(CreateBuilder().Options))
+            {
+                foreach (var item in context.Cats)
+                {
+                    context.Cats.Remove(item);
+                }
+                context.SaveChanges();
+            }
+        }
 
         public void Put(Cat cat)
         {
