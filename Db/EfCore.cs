@@ -82,7 +82,7 @@ namespace HelloWorldWebApi_Cat_.Study
      * 3. add-migration AddGroupType (как коммит в git,пишется после всех изменений в базе, AddGroupType - имя "коммита")
      * 4. update-database (базы синхронизировались)
      * 
-     * dotnet ef migrations add [migration name]
+     * dotnet ef migrations add [migration name] (должна создаться папка Migrations)
      */
 
     // Кешировання база данных, через которую Ef Core работает с реальной базой 
