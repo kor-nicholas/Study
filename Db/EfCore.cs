@@ -83,6 +83,7 @@ namespace HelloWorldWebApi_Cat_.Study
      * 4. update-database (базы синхронизировались)
      * 
      * dotnet ef migrations add [migration name] (должна создаться папка Migrations)
+     * dotnet ef database update (кешированная база/миграции передается в реальную базу)
      */
 
     // Кешировання база данных, через которую Ef Core работает с реальной базой 
