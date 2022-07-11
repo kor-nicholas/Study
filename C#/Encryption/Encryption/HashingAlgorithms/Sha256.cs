@@ -1,3 +1,7 @@
+using System;
+using System.Security.Cryptography;
+using System.Text;
+
 public class HashPass(string password)
 {
   using(var sha256 = SHA256.Create())
