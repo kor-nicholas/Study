@@ -13,3 +13,4 @@ dotnet build
 dotnet clean (clean bin/Debug/.net6.0/)
 dotnet run
 dotnet publish -p:PublishSingleFile=true (all files from Debug/ ... folder in 1 file) -r win-x64 (platform, windoes/Linux/ ..., google Windws/Linux RIDs) --self-contained false (framework containes, size) -> create folder with name RIDs/Publish to run priject
+dotnet publish -c Release/Debug -o publish -r linux-x64
