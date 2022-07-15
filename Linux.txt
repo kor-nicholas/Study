@@ -1,0 +1,1 @@
+7z a test.7z . [file-names] - create 7zip-archive
