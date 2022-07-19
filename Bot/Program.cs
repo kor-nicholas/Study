@@ -20,6 +20,8 @@ class Program : BotfProgram
         // FromId - user id
         // ChatId - chat id
         // Context.GetUsername()
+        // Button("Text", "callBackData")
+        // Button("Text", "https://[url]")
         
         await Send($"Hi! What is your name?");
 
