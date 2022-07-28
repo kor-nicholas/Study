@@ -76,6 +76,7 @@ Ctrl + A + C - create new window
 Ctrl + A + , - rename window
 Ctrl + D - close split/window
 Ctrl + A + D - close session
+Ctrl + A + M - try scroll
 tmux ls - command to show all sessions
 tmux attach -t [session-name] - connect session
 tmux rename-session -t [current-session-name] [new-session-name] - rename session
