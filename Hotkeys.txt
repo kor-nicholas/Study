@@ -50,7 +50,6 @@ Ctrl + U - Backspace (in Insert mode)
 Leader + Q - close window
 Alt + Q - close Telescope
 Ctrl + Z - no higlight
-Alt + h/j/k/l - set window (tmux)
 Leader + h/j/k/l - set window (nvim)
 Ctrl + h/l - change window (bufferline)
 Shift + h/l - move window (bufferline)
@@ -68,6 +67,20 @@ ysiw" (test -> "test")
 cs"' ("test" -> 'test')
 ds' ('test' -> test)
 Leader + X - Tree (o - open, r - rename, a - create, Ctrl + V/Ctrl + X - vertical/horizontal)
+
+Tmux:
+Ctrl + A - prefix
+Alt + B/N - split window(horizontal/vertical)
+Alt + h/j/k/l - set window
+Ctrl + A + C - create new window
+Ctrl + A + , - rename window
+Ctrl + D - close split/window
+Ctrl + A + D - close session
+tmux ls - command to show all sessions
+tmux attach -t [session-name] - connect session
+tmux rename-session -t [current-session-name] [new-session-name] - rename session
+tmux new -s [session-name] - new session with name
+tmux kill-session -t [session-name] - delete session
 
 Telegram:
 Ctrl + Q - close
