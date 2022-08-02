@@ -72,11 +72,13 @@ Tmux:
 Ctrl + A - prefix
 Alt + B/N - split window(horizontal/vertical)
 Alt + h/j/k/l - set window
-Ctrl + A + C - create new window
-Ctrl + A + , - rename window
+Ctrl + A + C - create new window-session
+Ctrl + A + N - next window-session
+Ctrl + A + W - list all window-session
+Ctrl + A + , - rename window-session
 Ctrl + D - close split/window
 Ctrl + A + D - close session
-Ctrl + A + M - try scroll
+Ctrl + A + M - scroll(?)
 tmux ls - command to show all sessions
 tmux attach -t [session-name] - connect session
 tmux rename-session -t [current-session-name] [new-session-name] - rename session
