@@ -4,6 +4,7 @@ using WorkHelpBot.Models.Output;
 
 public class TestController : BotController
 {
+	// Problem - in callback Telegram we can send only string(utf-8, 64 symbols)
 	[Action("/test")]
 	public async Task Test()
 	{
