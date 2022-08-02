@@ -1,0 +1,30 @@
+using Deployf.Botf;
+
+using WorkHelpBot.Models.Output;
+
+public class TestModel
+{
+	public int Id { get; set; }
+	public string Name { get; set; }
+}
+
+public class TestController : BotController
+{
+	[Action("/test")]
+	public async Task Test()
+	{
+		var testModel = new TestModel { Id = 1, Name = "Test" };
+		await AState(testModel);
+
+		Button("Показать", Q(TestHandler, testModel));
+		PushL("Состояние установлено");
+		await Send();
+	}
+
+	[Action]
+	public async Task TestHandler([State]TestModel testModel)
+	{
+		PushL($"Id: {testModel.Id}, Name: {testModel.Name}");
+		await Send();
+	}
+}
