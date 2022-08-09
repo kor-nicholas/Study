@@ -4,7 +4,7 @@ dotnet new --list
 dotnet new sln (create sln file with name folder)
 dotnet new console -o NameFolder
 dotnet sln add NameFolder (relationship between sln and csproj)
-dotnet add package ...
+dotnet add package ... (add/update package)
 dotnet remove package ...
 dotnet list package (nuget packages)
 dotnet add reference ../ProjectName -> ../ProjectName/ProjectName.csproj
