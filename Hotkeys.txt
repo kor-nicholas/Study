@@ -61,7 +61,7 @@ Leader + Leader - jump to other tag (html)
 T - terminal
 Leader + gg - LazyGit
 Leader + yc - Yode (code in right and you can write code in this "window" and in main editor)
-Leader + T - easymotion
+Leader + T / Leader + S - easymotion
 gc - comment/uncomment
 ysiw" (test -> "test")
 cs"' ("test" -> 'test')
