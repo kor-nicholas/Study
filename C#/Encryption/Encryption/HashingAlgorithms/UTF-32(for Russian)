@@ -1,0 +1,5 @@
+byte[] bytes = System.Text.Encoding.GetEncoding(12000).GetBytes(strs[1]);
+		string encodedMsg = Convert.ToBase64String(bytes);
+		_logger.LogInformation($"{encodedMsg}");
+		string str = System.Text.Encoding.GetEncoding(12000).GetString(bytes);
+		_logger.LogInformation($"{str}");
