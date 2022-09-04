@@ -70,15 +70,22 @@ Leader + X - Tree (o - open, r - rename, a - create, Ctrl + V/Ctrl + X - vertica
 
 Tmux:
 Ctrl + A - prefix
+[prefix] + M - mouse on
+[prefix] + T - time
 Alt + B/N - split window(horizontal/vertical)
 Alt + h/j/k/l - set window
-Ctrl + A + C - create new window-session
-Ctrl + A + N - next window-session
-Ctrl + A + W - list all window-session
-Ctrl + A + , - rename window-session
+[prefix] + C - create new window
+[prefix] + N - next window
+[prefix] + W - list all window
+[prefix] + , - rename window
 Ctrl + D - close split/window
-Ctrl + A + D - close session
-Ctrl + A + M - scroll(?)
+[prefix] + D - close session
+[prefix] + M - scroll(?)
+[prefix] + I - install plugins
+[prefix] + U - update plugins
+[prefix] + Alt + U - uninstall plugins
+[prefix] + E - edit ~/.tmux.config.local (~/.tmux.config) (in vim)
+[prefix] + Enter - copy mode ; Q - quit from copy mode
 tmux ls - command to show all sessions
 tmux attach -t [session-name] - connect session
 tmux rename-session -t [current-session-name] [new-session-name] - rename session
