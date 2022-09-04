@@ -74,8 +74,10 @@ Ctrl + A - prefix
 [prefix] + T - time
 Alt + B/N - split window(horizontal/vertical)
 Alt + h/j/k/l - set window
-[prefix] + C - create new window
-[prefix] + N - next window
+Alt + C - create new window
+Alt + N - next window
+Alt + P - previously window
+[prefix] + Tab - last window
 [prefix] + W - list all window
 [prefix] + , - rename window
 Ctrl + D - close split/window
@@ -85,7 +87,7 @@ Ctrl + D - close split/window
 [prefix] + U - update plugins
 [prefix] + Alt + U - uninstall plugins
 [prefix] + E - edit ~/.tmux.config.local (~/.tmux.config) (in vim)
-[prefix] + Enter - copy mode ; Q - quit from copy mode
+Alt + Enter - copy mode ; Q - quit from copy mode
 tmux ls - command to show all sessions
 tmux attach -t [session-name] - connect session
 tmux rename-session -t [current-session-name] [new-session-name] - rename session
