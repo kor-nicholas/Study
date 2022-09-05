@@ -35,8 +35,75 @@ Pul-request:
 5. Зафиксировать изменения (если есть) и произвести отправку (push) в удалённый репозиторий (origin).
 6. Открыть пул-реквест из рабочей ветки в ветку dev.
 
+---------------------------------------------------------------------------------------------------------
+
 git config http.sslCAinfo "D:\Programs\Git\mingw64\ssl\certs\ca-bundle.crt"
 git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git
 git clone https://<username>:<githubtoken>@github.com/<username>/<repositoryname>.git
 
+---------------------------------------------------------------------------------------------------------
+
+Readme.md:
+
+# - H1 ## - H2 ### - H3 #### - H4 ##### - H5 ###### - H6
+# text
+
+*/-/+ - list
+* text
+  - text
+    + text
+      - text
+
+1. text
+2. text
+  - text
+  1.1 text
+  
+---/___/*** - horizontal line for all page
+--------------------------------------------------
+
+__bold__ - bold text
+_coursive_ - coursive text
+___bold+coursive___ - bold and coursive text
+
+'''
+code - highlight code
+'''
+
+> - qoute (цитата)
+>> - double qoute (вложенная цитата)
+>>> ...
+
+[text for link](link)
+[YouTube](https://youtube.com)
+
+![text, if image doesn't work](image.png)
+
+[![text](image.png)](https:youtube.com) - when click for image -> go for link
+
+text [^1] continue text [^2]
+text
+[^1]: text footnote (сноска)
+[^2]: text footnote (like in books in the end page more information)
+
+color | count | size - table
+:-----|:------|------:
+red | 1 | 256
+blue | 2 | 22
+green | 5 | 6489
+
+\# it isn't H1 - text: # it isn't H1
+
+term(термин)
+: definition(определение)
+Термин
+  Определение
+  
+HTML
+<a id="anchor"></a>
+md-code
+[Up](#anchor) - up in the start page
+
+
+---------------------------------------------------------------------------------------------------------
 
