@@ -70,7 +70,7 @@ ___bold+coursive___ - bold and coursive text
 code - highlight code
 '''
 
-> - qoute (цитата)
+> - qoute (цитата) (after end qoute, we need Enter, Enter and continue to write text)
 >> - double qoute (вложенная цитата)
 >>> ...
 
@@ -104,6 +104,7 @@ HTML
 md-code
 [Up](#anchor) - up in the start page
 
+https://pandao.github.io/editor.md/en.html - site for test markdown code and see big example with all features
 
 ---------------------------------------------------------------------------------------------------------
 
