@@ -1,5 +1,6 @@
 Terminal:
 7z a test.7z . [file-names] - create 7zip-archive
+tar -xvf filename.tar.gz - unarchive data from archive
 history - check history of commands (CTRL + R - find command)
 
 Hotkeys:
