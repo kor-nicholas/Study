@@ -18,3 +18,5 @@ SHIFT + up/down - scroll up/down (terminal)
 CTRL + R - find command in history (terminal)
 CTRL + K - kill/cut (terminal)
 CTRL + Y - paste (terminal)
+CTRL + Tab - next workspace
+CTRL + Space - press workspace
