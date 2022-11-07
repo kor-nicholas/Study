@@ -1,1 +1,19 @@
+Terminal:
 7z a test.7z . [file-names] - create 7zip-archive
+history - check history of commands (CTRL + R - find command)
+
+Hotkeys:
+CTRL + ALT + T - create new terminal
+ALT + F4 - close program
+ALT + F3 / Windows - find program
+CTRL + L - clear (terminal)
+CTRL + SHIFT + + - zoom in (terminal)
+CTRL + - - zoom out (terminal)
+CTRL + A - cursor in start string (terminal)
+CTRL + E - cursor in end string (terminal)
+CTRL + B - cursor for 1 symbol back/left (terminal)
+CTRL + F - cursor for 1 sybmol next/right (terminal)
+SHIFT + up/down - scroll up/down (terminal)
+CTRL + R - find command in history (terminal)
+CTRL + K - kill/cut (terminal)
+CTRL + Y - paste (terminal)
