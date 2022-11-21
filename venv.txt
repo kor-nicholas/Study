@@ -1,6 +1,11 @@
+Windows
 python -m venv name -> создает папку виртуального окружения
 name\Scripts\activate -> активировать в командой строке виртуально окружение
 deactivate -> выключить виртуальное окружение в командной строке
 
 pip install pipenv
 pipenv shell - создать виртуально окружение
+
+Linux
+python3 -m venv venv
+source venv/bin/activate
