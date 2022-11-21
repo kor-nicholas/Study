@@ -1,7 +1,8 @@
 Terminal:
 7z a test.7z . [file-names] - create 7zip-archive
-tar -xvf filename.tar.gz - unarchive data from archive
+tar -xvf filename.tar.gz ~/Desctop - unarchive data from archive to Desctop
 history - check history of commands (CTRL + R - find command)
+ln -s ~/Programs/<folder>/bin/<file> /usr/local/bin - add program(file) in PATH (write command and run program) | ngrok
 
 Hotkeys:
 CTRL + ALT + T - create new terminal
