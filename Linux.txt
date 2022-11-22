@@ -3,6 +3,8 @@ Terminal:
 tar -xvf filename.tar.gz ~/Desctop - unarchive data from archive to Desctop
 history - check history of commands (CTRL + R - find command)
 ln -s ~/Programs/<folder>/bin/<file> /usr/local/bin - add program(file) in PATH (write command and run program) | ngrok
+nc/ncat -lvp 4444 > file_name.txt - to get file from other PC (nc - linux, ncat - windows)
+nc/ncat -w 5 <ip-to> 4444 < file_name.txt - send file to other PC (nc - linux, ncat - windows)
 
 Hotkeys:
 CTRL + ALT + T - create new terminal
