@@ -7,6 +7,7 @@ nc/ncat -lvp 4444 > file_name.txt - to get file from other PC (nc - linux, ncat 
 nc/ncat -w 5 <ip-to> 4444 < file_name.txt - send file to other PC (nc - linux, ncat - windows)
 watch du -h file_name.txt - watch (every 2 sec) how much MByte we enetered
 python -m http.server 8000 - create server in folder, go for <ip>:8000 to download files
+fim <file-name> - watch photo
 
 Hotkeys:
 CTRL + ALT + T - create new terminal
