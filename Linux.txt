@@ -1,3 +1,11 @@
+Reset pass: 
+- Advances options
+- Enter <e> in (recovery mode)
+- linux ... ro -> rw single init/bin/bash
+- <Ctrl + X>
+- passwd (for root) | passwd <user> (for user)
+- reboot | restart PC
+
 Terminal:
 7z a test.7z . [file-names] - create 7zip-archive
 tar -xvf filename.tar.gz ~/Desctop - unarchive data from archive to Desctop
@@ -8,6 +16,7 @@ nc/ncat -w 5 <ip-to> 4444 < file_name.txt - send file to other PC (nc - linux, n
 watch du -h file_name.txt - watch (every 2 sec) how much MByte we enetered
 python -m http.server 8000 - create server in folder, go for <ip>:8000 to download files
 fim <file-name> - watch photo
+passwd <user> - change pass for user (passwd - for root)
 
 Hotkeys:
 CTRL + ALT + T - create new terminal
