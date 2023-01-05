@@ -19,6 +19,8 @@ python -m http.server 8000 - create server in folder, go for <ip>:8000 to downlo
 fim <file-name> - watch photo
 exiftool <file-name> - check metadata from photo
 passwd <user> - change pass for user (passwd - for root)
+mc - show all folders and files graphlie in terminal
+curl ident.me/ifconfig.me - check your out-ip
 
 Hotkeys:
 CTRL + ALT + T - create new terminal
