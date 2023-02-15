@@ -27,6 +27,7 @@ CTRL + ALT + T - create new terminal
 ALT + F4 - close program
 ALT + F3 / Windows - find program
 ALT + H/L - change desctop (H - left/L - right)
+ALT + D - hide all windows and show Desctop
 CTRL + L - clear (terminal)
 CTRL + SHIFT + + - zoom in (terminal)
 CTRL + - - zoom out (terminal)
