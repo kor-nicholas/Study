@@ -21,6 +21,7 @@ exiftool <file-name> - check metadata from photo
 passwd <user> - change pass for user (passwd - for root)
 mc - show all folders and files graphlie in terminal
 curl ident.me/ifconfig.me - check your out-ip
+neofetch - info about system
 
 Hotkeys:
 CTRL + ALT + T - create new terminal
