@@ -1,7 +1,7 @@
 Reset pass: 
 - Advances options
 - Enter <e> in (recovery mode)
-- linux ... ro -> rw single init/bin/bash
+- linux ... ro -> rw single init=/bin/bash
 - <Ctrl + X>
 - passwd (for root) | passwd <user> (for user)
 - reboot | restart PC
