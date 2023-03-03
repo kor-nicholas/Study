@@ -1,3 +1,11 @@
+Clone and other command:
+
+git config http.sslCAinfo "D:\Programs\Git\mingw64\ssl\certs\ca-bundle.crt"
+git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git
+git clone https://<username>:<githubtoken>@github.com/<username>/<repositoryname>.git
+git clone --branch=<branch-name> <link>
+git rm --cached <file> - delete file from commit
+
 Push: 
 
 git init
@@ -5,13 +13,9 @@ git add . (or files)
 git commit -m "Commit Name"
 git branch -M main (new branch main) (2 раз можно не вводить)
 git remote add origin <url> (2 раз можно не вводить)
+git remote set-url origin https://<token>@github.com/<username>/<repository>
 git push -u origin main
 git push -f origin main (иногда если не пушит и выбивает ошибку)
-hint: Updates were rejected because the remote contains work that you do
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: (e.g., 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 Update commit: 
 
@@ -34,13 +38,6 @@ Pul-request:
 4. Ребилд всего решения(обязательно!). Исправить ошибки, если есть.
 5. Зафиксировать изменения (если есть) и произвести отправку (push) в удалённый репозиторий (origin).
 6. Открыть пул-реквест из рабочей ветки в ветку dev.
-
----------------------------------------------------------------------------------------------------------
-
-git config http.sslCAinfo "D:\Programs\Git\mingw64\ssl\certs\ca-bundle.crt"
-git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git
-git clone https://<username>:<githubtoken>@github.com/<username>/<repositoryname>.git
-git clone --branch=<branch-name> <link>
 
 ---------------------------------------------------------------------------------------------------------
 
