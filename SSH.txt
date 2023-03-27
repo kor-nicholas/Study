@@ -1,0 +1,11 @@
+ssh-keygen -> generate ssh keys (public and private)
+/.ssh/id_rsa - private key
+/.ssh/id_rsa-.pub - public key
+ssh-copy-id <user>@<ip> -> copy public key to server
+ssh <user>@<ip> - connect for ssh without pass
+
+sudo nano /etc/ssh/sshd_config: 
+- PasswordAuthentication yes/no (connect for ssh, use pass)
+- PermitRootLogin yes/no (connect for ssh root)
+- AllowUsers <user1> <user2> root
+sudo service ssh restart
