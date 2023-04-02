@@ -1,0 +1,4 @@
+emmet
+.test -> <div class="test"></div>
+p.text -> <p class="text"></p>
+input.test[name=test] -> <input type="text" class="test" name="test">
