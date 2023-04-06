@@ -15,7 +15,7 @@ git branch -M main (new branch main) (2 раз можно не вводить)
 git remote add origin <url> (2 раз можно не вводить)
 git remote set-url origin https://<token>@github.com/<username>/<repository>
 git push -u origin main
-git push -f origin main (иногда если не пушит и выбивает ошибку)
+git push -f origin main (иногда если не пушит и выбивает ошибку, но после этого все старые коммиты теряются)
 
 Update commit: 
 
