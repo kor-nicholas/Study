@@ -1,0 +1,67 @@
+/* name - style.css */
+
+/* ----------------------------------------------------------- */
+
+/* selector for class */
+/* .block{ */
+/* } */
+
+/* selector for tag */
+/* div{ */
+/* } */
+
+/* selector for tag and class */
+/* div.block{ */
+/* } */
+
+/* property and value (parametr = property + value) */
+/* .block{ */
+	/* property: value */
+	/* font-size: 20px; */
+/* } */
+
+/* we can change styles in some classes */
+/* .block,.block2{ */
+/* } */
+
+/* ----------------------------------------------------------- */
+
+/* our styles complete in all span-tags */
+/* span{ */
+/* 	font-size: 20px; */
+/* 	color: red; */
+/* } */
+
+/* selector - our styles complete in class 'bigyellow' */
+/* styles complete start from up to down */
+.bigyellow{
+	font-size: 20px;
+	color: yellow;
+}
+
+.smallgreen{
+	font-size: 10px;
+	color: green;
+}
+
+/* styles complete in all tags with class biggreen (this selector is more priority)*/
+span.biggreen{
+	font-size: 20px;
+	color: green;
+}
+
+/* styles complete in class bigred in all tags span */
+.bigred span{
+	color: red;
+}
+
+/* only in first div with tags p -> color: blue */
+.block>p{
+	color: blue;
+}
+
+/* ----------------------------------------------------------- */
+
+
+
+

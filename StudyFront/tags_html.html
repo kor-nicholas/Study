@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Title</title>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<body>
+		<h1>Строительные теги(блочные теги)</h1>
+		<p>Блочные теги - каждый тег пишется с новой строки</p>
+		<p>Строчные теги - пишутся в 1 строку и зависят от количества контента(могут переходить на новую строку)</p>
+		<p>Правило №1 - нельзя помещать в строчный тег, блочный тег(наоборот - можно)</p>
+
+		<div><b>div</b> - основной тег</div>
+		
+		<header><b>header</b> - предназначен для шапки сайта(так же можно помещать div теги)</header>
+		<nav><b>nav</b> - предназначен для создания навигации сайта(так же можно помещать div теги)</nav>
+		<footer><b>footer</b> - предназначен для подвала сайта(так же можно помещать div теги)<div>внутренний div тег</div></footer>
+
+		<div class="">div с атрибутом классом</div>
+
+		<h1>H1(на странице может быть только 1 главный заголовок)</h1>
+		<h2>H2</h2>
+		<h3>H3</h3>
+		<h4>H4</h4>
+		<h5>H5</h5>
+		<h6>H6</h6>
+
+		<p><b>p</b> - абзац</p>
+
+		<p><b>ul</b> - маркерованный список(атрибут type - с чего будет начинаться отсчет, 1 : 1. 2. 3., a - a. b. c., A - A. B. C., | - |. ||. |||.)</p>
+		<p><b>ol</b> - нумерованный список</p>
+		<p><b>li</b> - элемент ul/ol списка</p>
+
+		<ul>
+			<li>test1</li>
+			<li>test2</li>
+		</ul>
+
+		<ol>
+			<li>test1</li>
+			<li>test2</li>
+		</ol>
+
+		<p><b>br</b> - не закрывающий тег, который делает перенос строки на новую строку \n</p>
+		<p>some text ... <br> ... continue text</p>
+
+		<p><b>form</b> - тег всех форм (взаимодействие с пользователем, получение от его информации). Обязательный атрибут <ins>action</ins> - куда уйдут данные, атрибут <ins>method</ins> - http-метод запроса (<ins>get</ins> - пользователь видит параметры в адресной строке, <ins>post</ins> - передает данные скрытно), атрибут <ins>enctype</ins> = "multipart/form-data" - для передачи файлов</p>
+		<form action="#" method="", enctype="multipart/form-data"></form>
+
+		<p>атрибут <ins>placeholder</ins>(для тега input и textarea) - подпись поля</p>
+		<p>атрибут <ins>disabled</ins>(все теги в форме, кроме самой form) - данные не отправляются + поле становится тусклым</p>
+		<p>атрибут <ins>tabindex</ins>(все теги в форме, кроме самой form) - порядок перехода между элементами в форме, при нажатии Tab</p>
+		<p>атрибут <ins>name</ins> - название параметра при передаче на сервер</p>
+		<p>атрибут <ins>value</ins> - значение параметра</p>
+
+		<p><b>address</b> - для отображения контактной информации(например, в footer почта, телефон, адрес)</p>
+
+		<address>
+			<p>610000, г.Харьков<br>Гимназическая гимназия,24, офис 32</p>
+			<p>Тел.: (057) 752-33-22</p>
+			<p>Email: test@gmail.com</p>
+		</address>
+
+		<p><b>section</b> - тот же div, но чаще используется для статей как основной тег-коробка(так как имеет большый функционал - семантическое значение, может иметь свой header и footer)</p>
+		<p><b>article</b> - чаще всего используется для самой статьи</p>
+		<p><b>aside</b> - бокова панель, сноска, метка</p>
+
+		<section>
+			<h2>Свежые статьи</h2>
+			<article>
+				<h2>Заголовок статьи 1</h2>
+				<p>Текст статьи</p>
+			</article>
+			<article>
+				<h2>Заголовок статьи 2</h2>
+				<p>Текст статьи</p>
+				<aside>Доп инфа к 2 статье</aside>
+			</article>
+		</section>
+		<aside>
+			<section>
+				<h3>Blogroll</h3>
+			</section>
+			<section>
+				<h3>Реклама</h3>
+			</section>
+		</aside>
+
+		<p><b>pre</b> - моноширний шрифт(уже идеально отформатированный текст, лучше всего писать код)</p>
+		<pre>Test text</pre>
+				
+		<h1>Строчные теги</h1>
+		<span><b>span</b> - выделенный текст</span>
+		<p>some text ... <span>span text, that we need highilght yellow</span> ... some text</p>
+
+		<a target="_blank" href="https://google.com"><b>a</b> - ссылка(атрибут href - куда перейдет, при нажатии на ссылку, например на другую html-страницу, либо сайт, атрибут target="_blank" - при нажатии, содержимое откроется в новом окне браузера) ; в содержимом тега - text, img, другие строчные теги</a>
+
+		<p><b>img</b> - вставляет изображение на страницу, не закрывающий тег (атрибуты <ins>src</ins> и <ins>alt</ins> : обязательны, <ins>src</ins> - путь, <ins>alt</ins> - текст, если картинка не загрузится)</p>
+
+		<img src="img/index.jpeg" alt="Картинка не загрузилась">
+		<img src="img/inde.jpeg" alt="Картинка не загрузилась">
+
+		<p><b>input</b>(в теге form) - принимает от пользователя информацию (атрибут <ins>type</ins> - определяет метод приема данных от пользователя, <ins>text</ins> - появится поле ввода текста, <ins>tel</ins> - для открытия цифровой клавиатуры на телефоне, <ins>password</ins> - при вводе, символы заменяются на звездочки, <ins>radio</ins> - поле с точкой выбора разных вариантов и отделяются именем-name, <ins>checked</ins> type = 'radio' - выбрать значение по-умолчанию, <ins>checkbox</ins> - флаг который пользователь может либо выбрать либо не выбрать и так же с помощью атрибута <ins>checked</ins> можно выбрать по-умолчанию, <ins>file</ins> - выбрать файл без value и текста в самом теге, атрибут <ins>placeholder</ins> - подпись поля), атрибут <ins>name</ins> - обязательно, что мы принимаем, <ins>value</ins> - если ввести, то данные появятся в поле ввода(например текста) и чтобы их изменить, человеку нужно будет сначала их удалить</p>
+
+		<input type="text" name="test", value="">
+		<input type="text" name="test", value="test">
+		<input placeholder="Подпись поля" type="text" value="">
+		<input type="password" name="pass" value="">
+		<input type="tel" name="phone-number" value="">
+		<p><input type="radio" name="beer" value="white"> Светлое пиво</p>
+		<p><input type="radio" name="beer" value="dark"> Темное пиво</p>
+		<p><input checked type="radio" name="beer" value="dark"> Темное пиво</p>
+		<p><input type="checkbox" name="car" value="yes"> Наличие авто</p>
+		<p><input checked type="checkbox" name="car" value="yes"> Наличие авто</p>
+
+		<p><b>textarea</b> - поле ввода большого текста(атрибут <ins>name</ins>, атрибуты <ins>cols</ins> и <ins>rows</ins> - размеры поля, но можно не указывать, так как потом оно будет контролироваться с помощью css/js, атрибут <ins>placeholder</ins> - подпись поля, но оно не отправляется)</p>
+
+		<textarea name="testText"></textarea>
+		<textarea placeholder="Подпись поля" name="textarea"></textarea>
+
+		<p><b>select</b> - выпадающий список(коробка), атрибут <ins>name</ins>(multiple name = "" - чтобы можно было зажать Ctrl и выбрать несколько вариантов)</p>
+		<p><b>option</b> - варианты выбора в выпадающем списке, пишется внутри тега select (атрибут <ins>value</ins>, текст внутри тега для отображения пользователю), <ins>selected</ins> value - выбрать по-умолчанию</p>
+
+		<select name="color">
+			<option value="red">Красный</option>
+			<option value="yellow">Желтый</option>
+			<option value="green">Зеленый</option>
+		</select>
+
+		<p><b>button</b> - кнопка(текст внутри тега - текст на копке, атрибут <ins>type</ins> = 'submit' - вся форма отправляется, <ins>type</ins> = 'reset' - вся форма очищается)</p>
+
+		<button type="submit">Отправить</button>
+		<button type="reset">Очистить форму</button>
+
+		<p><b>abbr</b> - при наведении мышки к тексту, подсвечивается текст из атрибута <ins>title</ins></p>
+		<p>text ... <abbr title="more information">abbr text</abbr> ... continue text</p>
+
+		<p><b>mark</b> - подсвечивание/выделение/highilght выделенного в тег текста</p>
+
+		<p>text ... <mark>mark text</mark> ... continue text</p>
+
+		<p><b>ins</b> - внизу подчеркнутый текст</p>
+
+		<p>text ... <ins>ins text</ins> ... continue text</p>
+
+		<p><b>sub</b> - отобразить текст в виде нижнего индекса</p>
+
+		<p>text ... H<sub>2</sub>O ... continue text</p>
+
+		<p><b>sup</b> - отобразить текст в виде верхнего индекса</p>
+
+		<p>text ... H<sup>2</sup>O ... continue text</p>
+	</body>
+</html>
+
+

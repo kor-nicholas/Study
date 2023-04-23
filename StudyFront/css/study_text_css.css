@@ -1,0 +1,156 @@
+/* styles/properties(text) */
+
+/* font-family(Times New Roman) - family of font */
+.arial{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* font-size(14px) - size of font */
+.fontsize30{
+	font-size: 30px;
+}
+
+/* font-style(normal) - style of font(coursive, наклонный) */
+/* italic - coursive, normal - normal, oblick - наклонный */
+.italic{
+	font-style: italic;
+}
+.naklon{
+	font-style: oblique;
+}
+
+/* font-weight(400) - bold/thin/... */
+/* 100 - thin */
+/* 300 - lite */
+/* 400 - normal */
+/* 500 - medium */
+/* 600 - semibold */
+/* 700 - bold */
+/* 900 - black */
+.font100{
+	font-weight: 100;
+}
+.fontthin{
+	font-weight: thin;
+}
+.font300{
+	font-weight: 300;
+}
+.fontlite{
+	font-weight: lighter;
+}
+.font400{
+	font-weight: 400;
+}
+.fontnormal{
+	font-weight: normal;
+}
+.font500{
+	font-weight: 500;
+}
+.fontmedium{
+	font-weight: medium;
+}
+.font600{
+	font-weight: 600;
+}
+.fontsemibold{
+	font-weight: semibold;
+}
+.font700{
+	font-weight: 700;
+}
+.fontbold{
+	font-weight: bold;
+}
+.font900{
+	font-weight: 900;
+}
+.fontblack{
+	font-weight: black;
+}
+
+/* color - color of text */
+.colorred{
+	color: red;
+	color: #f00f00;
+	color: rgb(255, 0, 0);
+}
+
+/* text-align(left) - horizontal выравнивание of text (justify - text for all line) */
+.textright{
+	text-align: right;
+}
+.textleft{
+	text-align: left;
+}
+.textcenter{
+	text-align: center;
+}
+.textjustify{
+	text-align: justify;
+}
+
+/* text-decoration(none) - ins, зачеркнутый text */
+.underline{
+	text-decoration: underline;
+}
+.overline{
+	text-decoration: overline;
+}
+.line-through{
+	text-decoration: line-through;
+}
+
+/* text-shadow - тень(horizontal, vertical, size, color) */
+.shadow{
+	text-shadow: 1px 1px 1px #000000;
+}
+
+/* text-transform(none) - big symbols */
+/* capitalize - first letter is upper, other - no (One Two Three) */
+.capitalize{
+	text-transform: capitalize;
+}
+/* lowercase - all letters are small */
+.lowercase{
+	text-transform: lowercase;
+}
+/* uppercase - all letters are big */
+.uppercase{
+	text-transform: uppercase;
+}
+
+/* text-indent - set отступ in first line */
+.indent50{
+	text-indent: 50px;
+}
+.indent10{
+	text-indent: 10px;
+}
+
+/* letter-spacing - space between letters */
+.lspace{
+	letter-spacing: 5px;
+}
+
+/* word-spacing - space between words */
+.wspace{
+	word-spacing: 5px;
+}
+
+/* white-space - set properties for space */
+/* nowrap - write all text without \n */
+.whitespace{
+	white-space: nowrap;
+}
+
+/* line-height(1) - set межстрочный интервал of text */
+.lineheight20{
+	line-height: 20px;
+}
+.lineheight80{
+	line-height: 80px;
+}
+
+

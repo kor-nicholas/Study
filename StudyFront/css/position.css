@@ -1,0 +1,93 @@
+body {
+	padding: 30px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.block {
+	border: 5px solid red;
+	max-width: 800px;
+	margin: 0 auto;
+	height: 800px;
+
+	position: relative;
+}
+
+.block div {
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+
+/*position - where element show for other elements*/
+/*static: po-ymolchaniu*/
+/*relative: for start in code (left/top to move block, z-index)*/
+/*absolute: get block in "air" and he move for browser (left/top to move block, z-index)*/ 
+/*if parent block relative and child block absolute - child position for parente*/
+/*fixed: like absolute in "air", but only for browser and fix (header). when we scroll*/
+/*sticky: between static and fixed (firstly static, but when we scrool and go fo our element - he fixed)*/
+
+.block__1 {
+	background-color: #ece89d;
+}
+
+.block__2 {
+	background-color: #5e5373;
+	color: #fff;
+
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.block__3 {
+	background-color: #18b5a4;
+	position: relative;
+	left: 10px;
+	top: 30px;
+}
+
+.block__4 {
+	background-color: #ece89d;
+
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.block__5 {
+	background-color: #5e5373;
+	color: #fff;
+
+	position: relative;
+
+	z-index: 1;
+}
+
+.block__6 {
+	background-color: #18b5a4;
+
+	position: sticky;
+	top: 0;
+}
+
+.list {
+	font-size: 18px;
+}
+
+.list li {
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0pc 0px 30px;
+	position: relative;
+}
+
+.list li:before {
+	content: '';
+	background: url('../img/icon.png') 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}

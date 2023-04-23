@@ -1,0 +1,20 @@
+It's file to write information for project
+
+Source - folder for source from employee
+StudyFront - folder for project (where you write code)
+
+css - folder for .css-files
+js - folder for .js-files
+img - folder for images
+fronts - folder for (шрифты)
+
+
+
+
+
+
+
+
+
+
+

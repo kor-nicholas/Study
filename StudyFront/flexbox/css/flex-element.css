@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+    height: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    padding: 50px;
+}
+
+.block {
+    
+}
+
+.block__row {
+    display: flex;
+
+    border: 20px solid #ece89d;
+    margin-bottom: 20px;
+}
+
+.block__column {
+    border: 20px solid #5e5373;
+}
+
+/* Flex-element */
+.block__column_1 {
+    /* like align-items, but for flex-element */
+    /* we can rewrite(set new value) for element, not block */
+    /* align-self: stretch; */
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+    align-self: center;
+
+    /* list of numbers for show element */
+    /* show first element in last (3/3) */
+    order: 3;
+
+    /* base size for element */
+    /* default: auto */
+    /* flex-basis: auto; */
+    /* flex-basis: 30%; */
+    flex-basis: 500px;
+
+    /* add size for base-size */
+    /* default: 0 */
+    /* all space for size flex-element in flex-container */
+    flex-grow: 1;
+
+    /* allow to small then base-size */
+    /* default: 1 (it can be smaller, when we small windows) */
+    /* no change to small, if we small window */
+    flex-shrink: 0;
+
+    /* flex: flex-grow flex-shrink flex-basis */
+    flex: 0 1 auto;
+}
+
+.block__column_2 {
+    /* must set, if don't change too */
+    /* show in center (2/3) */
+    order: 2;
+}
+
+.block__column_3 {
+    /* show last element in first (1/3) */
+    order: 1;
+}
+
+.block__item {  
+    background-color: #18b5a4;
+    /* padding: 50px; */
+    /* for demonstrate align-items */
+    padding: 30px 50px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.block__list {
+    display: flex;
+    align-items: center;
+}
+
+.block__list li {
+    margin: 0px 15px 0px 0px;
+}
+
+.block__list li:last-child {
+    margin: 0px 0px 0px 0px;
+}
+
+.block__info {
+    position: relative;
+    padding: auto;
+}
+

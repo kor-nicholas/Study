@@ -1,0 +1,178 @@
+body {
+	padding: 30px;
+}
+
+.block {
+	margin-bottom: 30px;
+}
+
+/*Psevdo classes STATE*/
+
+.block p {
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+/*use some psevdo classes*/
+.block p:nth-child(2):hover {
+	background: pink;
+}
+
+.link {
+	color: red;
+}
+
+/*when user back in site after visited for link*/
+.link:visited {
+	color: pink;
+}
+
+/*when mouse on element(link)*/
+.link:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+/*when we click for element*/
+.link:active {
+	color: orange;
+}
+
+.textinput {
+	border: 1px solid #666;
+	height: 50px;
+	padding: 0 15px; /*left and right*/
+	font-size: 18px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+/*when element in focus (for example click for element or Tab)*/
+.textinput:focus {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.textbutton {
+	display: block; /*display bottom for block*/
+	width: 330px;
+	height: 50px;
+	background: #666;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.textbutton:hover {
+	background: #333;
+	color: yellow;
+}
+
+.textbutton:active {
+	background: #eee;
+}
+
+.list li {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+/*work with childs (we needn't to create a lot of classes to style element in block)*/
+/*if we create new element in future up first-child or down last-child - our css doesn't work, because we have new element and first-child (li) isn't first (if we create div up first-child li)*/
+.list li:first-child {
+	text-align: center;
+}
+
+.list li:last-child {
+	text-align: right;
+}
+
+.list li:nth-child(2) {
+	font-size: 40px;
+}
+
+.list li:nth-child(4) {
+	color: red;
+	font-weight: 700;
+}
+
+.list li:nth-child(odd) {
+	color: green; /*all nechetnie elements*/
+}
+
+.list li:nth-child(even) {
+	color: orange; /*all chentnie elements*/
+}
+
+/*Psevdo elements*/
+/*:: in CSS 3*/
+
+.text {
+	font-size: 24px;
+	line-height: 33px;
+	margin-bottom: 30px;
+}
+
+/*style for first line in text*/
+.text:first-line {
+	text-decoration: underline;
+}
+
+/*style for first letter in text (if change page - style only for first line)*/
+.text:first-letter {
+	color: red;
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.list2 {
+	color: orange;
+}
+
+.list2 li {
+	font-size: 24px;
+	margin: 20px 0 20px 0;
+}
+
+/*show content before element*/
+.list2 li:before {
+	content: '<'; /*must*/
+}
+
+.list2:before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: red;
+	display: inline-block; /*show tag or element like block (to use width, ...)*/
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+
+/*show content after element*/
+.list2 li:after {
+	content: '>';
+}
+
+.list2:after {
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: red;
+	display: inline-block; /*show tag or element like block (to use width, ...)*/
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+/*Specific psevdo elements (in null-styles.css)*/
+input::-ms-clear {display: none;} /*when we input text in Internet Explorer, we can turn off button clear -> X*/
+button::-moz-focus-inner {padding: 0; border: 0;} /*clear padding in buttons in Firefox*/
+
+/*use psevdo classes and psevdo elements (first class, then -> element)*/
+.list2 li:hover:before {
+	background-color: green;
+}

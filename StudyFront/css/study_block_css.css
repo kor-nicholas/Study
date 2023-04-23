@@ -1,0 +1,84 @@
+.example-block{
+/* padding - inside отступ(up, right, down, left) */
+	padding: 10px 20px 30px 5px;
+	/* 10 - up, 20 - left and right, 30 - down */
+	padding: 10px 20px 30px;
+	/* 10 - up and down, 20 - left and right */
+	padding: 10px 20px;
+	/* 10 - all (up, right, left, down) */
+	padding: 10px;
+
+	/* margin - outside отступ(values like padding, but we can use -minus) */
+	margin: 20px;
+
+	/* width - set width (if we change window-size - our block will not change:)*/
+	width: 500px;
+
+	/* max-width - set max-width (if we change window-size - our block will change too)*/
+	max-width: 500px;
+
+	/* min-width - set min-width (if we change window-size - our block will change before 500px, but after - no) */
+	min-width: 500px;
+
+	/* height - like width */
+	height: 50%;
+
+	/* max-height - like max-width (it works a bad, if a lot of text in block)*/
+	max-height: 100px;
+
+	/* min-height - like min-width */
+	min-height: 100px;
+
+	/* overflow - отображения содержимого (visible - just show content and doesn't matter for size, hidden - don't show outside block, scroll - create scroll and user can check all info, auto - create scroll only where block needs)*/
+	overflow: auto;
+
+	/* display - how element will be show in page (block - show like block for example we can change from string to block element, inline - show like string element or just change from block in string element, inline-block - it's inline element but property for block works too, none - no show element) */
+	display: block;
+
+	/* border - set line around block (in Figma it names Stroke, inside, solid - style of border, dotted - style of borger with dots, dashed - style of border width lines, in Figma we have styles too) */
+	border: 1px solid #000;
+	/* (top - up, bottom - down, left, right) */
+	border-top: 5px dotted red;
+	border-bottom: 5px solid #000;
+	border-left: 5px dashed green;
+	border-right: 5px solid blue;
+	/* (if we want turn off one side) */
+	border: 5px solid black;
+	border-right: none;
+
+	/* border-radius - set radius in block (like padding or margin) */
+	border-radius: 10px;
+	border-radius: 10px 0 10px 0;
+
+	/* outline - set line around all block (like border, bot outside and border-radius not work and we can set size only for all sides) */
+	outline: 5px solid #000;
+
+	/* box-shadow - тень (horizontal, vertical, radius, растояние or maybe blur, color, inset - second тень inside block) */
+	box-shadow: 5px 5px 10px 5px red, inset 5px 5px 10px 5px green;
+
+	/* opacity - прозрачность (from 0 to 1) */
+	opacity: 0.2;
+
+	/* visibility(visible) - show/hide block (visible - show, hidden - not show, but we can't use this block and place not set for new object) */
+	visibility: visible;
+}
+.example-string{
+	/* display: inline-block; */
+	padding: 20px;
+	width: 500px;
+
+	opacity: 0.5;
+	/* visibility: hidden; */
+}
+
+.example-img{
+	width: 100%;
+	max-width: 500px;
+	min-width: 300px;
+
+	margin: 30px 0 0 0;
+
+	border: 5px dotted #000;
+	border-radius: 1px 5px 10px 20px;
+	opacity: 0.8;
+}

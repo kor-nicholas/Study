@@ -1,0 +1,86 @@
+body {
+	padding: 30px;
+}
+
+.list {
+	margin-bottom: 50px;
+}
+
+.list li {
+	margin-bottom: 15px;
+	background: url('../img/icon.png') left 5px/15px 15px no-repeat;
+	padding-left: 30px;
+}
+
+.block {
+	height: 300px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px #000;
+
+	/*Set color*/
+	background: #18b5a4;
+	background-color: #18b5a4;
+	background: rgba(129, 45, 211, 0.5); /* with alfa-canal (copacity)*/
+
+	/*Set image*/
+	background: url('../img/cover.jpg');
+	background-image: url('../img/cover.jpg');
+
+	/*Set how image repeat*/
+	background: url('../img/cover.jpg')repeat;
+	background: url('../img/cover.jpg')no-repeat;
+	background: url('../img/cover.jpg')repeat-x;
+	background: url('../img/cover.jpg')repeat-y;
+	background: url('../img/cover.jpg')space;
+	background: url('../img/cover.jpg')round;
+
+	background: url('../img/cover.jpg');
+	background-repeat: repeat;
+	background-repeat: no-repeat;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	background-repeat: space;
+	background-repeat: round;
+
+	/*Set position (left, right, top, bottom)*/
+	background: url('../img/cover.jpg') 0 0 no-repeat; /*for-ymolchaniy*/
+	background: url('../img/cover.jpg') top left no-repeat;
+	background-image: url('../img/cover.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+
+	background: url('../img/cover.jpg') 50% no-repeat; /*center*/
+	background: url('../img/cover.jpg') center no-repeat;
+
+	background: url('../img/cover.jpg') 0 50% no-repeat; /*left*/
+	background: url('../img/cover.jpg') left no-repeat;
+
+	background: url('../img/cover.jpg') 100% 100% no-repeat; /*in sircle(ugly)*/
+	background: url('../img/cover.jpg') bottom right no-repeat;
+
+	background: url('../img/cover.jpg') 25px 36px no-repeat; /*for pixels*/
+
+	/*Set scrolling*/
+	background: url('../img/cover.jpg') 0 0 no-repeat scroll; /*scrolling with other elemnts*/
+	background: url('../img/cover.jpg');
+	background-attachment: scroll;
+
+	background: url('../img/cover.jpg') 0 0 no-repeat fixed; /*scrolling other elements, this - no*/
+	background: url('../img/cover.jpg') 0 0 no-repeat local; /*scrolling inside element*/
+
+	/*Set size*/
+	background: url('../img/cover.jpg') 0 0/auto auto no-repeat; /*for-ymolchaniy*/
+	background: url('../img/cover.jpg');
+	background-size: auto auto;
+
+	background: url('../img/cover.jpg') 0 0/100% auto no-repeat; /*<> for x*/
+	background: url('../img/cover.jpg') 0 0/auro 100% no-repeat; /*roztyanylo for y*/
+	background: url('../img/cover.jpg') 0 0/100% 100% no-repeat; /*raztyanylo for x and y*/
+	background: url('../img/cover.jpg') 0 0/24px 4px no-repeat; /*for px*/
+	background: url('../img/cover.jpg') 0 0/contain no-repeat; /*inside in block for small, good when change size window*/
+	background: url('../img/cover.jpg') 0 0/cover no-repeat; /*inside in block for big, good when change size window*/
+
+	/*Set a lot of background*/
+	background: url('../img/like.png') center no-repeat, url('../img/cover.jpg') left bottom/50% 100% no-repeat, url('../img/index.jpeg') right top/50% 100%; no-repeat;
+	background: url('../img/like.png') center no-repeat, green;
+}

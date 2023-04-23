@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metology BEM</title>
+
+    <link rel="stylesheet" href="css/metology_BEM.css">
+</head>
+<body>
+    <!-- BEM: Block Element Modificator -->
+
+    <!-- Block -> if use some (raz) in page/project -->
+    <!-- name -> What is it?, smallercase, some words with - (search-form) -->
+    <!-- nav.menu -->
+    <!-- don't use position and margin/padding to use in some place -->
+    <!-- trust block inside in other block -->
+
+    <nav class="main-menu"></nav>
+    
+    <!-- Element -> use inside block, it can't use in other place -->
+    <!-- name -> What is it?, nameClassBlock__nameElement -->
+    <!-- a.menu__link*2 -->
+    <!-- trust element inside in other element (row, column, item)-->
+
+    <nav class="main-menu">
+        <a href="https://google.com" class="main-menu__link">Google</a>
+        <a href="https://instagram.com" class="main-menu__link">Instagram</a>
+    </nav>
+
+    <!-- block -->
+    <div class="row">
+        <!-- element -->
+        <div class="row__column">
+            <!-- element -->
+            <div class="row__item"></div>
+        </div>
+    </div>
+
+    <!-- Modificator -> add style for block/element, set from other -->
+    <!-- name -> Which? How it show? State? -->
+    <!-- nameClassBlock_nameModifiacator, nameClassBlock__nameElement_nameModificator -->
+
+    <nav class="top-menu">
+        <!-- set Home like active, for example change color -->
+        <a href="" class="top-menu__item top-menu__item_active">Home</a>
+        <a href="" class="top-menu__item">About us</a>
+        <a href="" class="top-menu__item">Portfolio</a>
+        <a href="" class="top-menu__item">Contact</a>
+    </nav>
+
+    <!-- Mix -> use some block/element in one object -->
+
+    <div class="about">
+        <!-- element(about__title) and block(title) -->
+        <div class="about__title title"></div>
+        <div class="about__subtitle subtitle"></div>
+    </div>
+
+    <!-- Practise -->
+
+    <div class="about">
+        <div class="about__body">
+            <div class="about__header">
+                <div class="about__title title">About</div>
+                <div class="about__text">
+                    We specialize in contemporary, functional and stunning websites with design that really brings that "WOW" factor
+                </div>
+            </div>
+            <div class="about__row">
+                <div class="about__column">
+                    <div class="item-about">
+                        <div class="item-about__picture">
+                            <img src="img/about/01.png" alt="Not find picture">
+                        </div>
+                        <div class="item-about__title">Web</div>
+                        <div class="item-about__describe">We tend to deliver unique and functional design, through innovation and creativity</div>
+                    </div>
+                </div>
+                <div class="about__column">
+                    <div class="item-about">
+                        <div class="item-about__picture">
+                            <img src="img/about/02.png" alt="Not find picture">
+                        </div>
+                        <div class="item-about__title">Ios and Android</div>
+                        <div class="item-about__describe">We seek to bring new businesses and customers closer together through valuable insights and proper targeting</div>
+                    </div>
+                </div>
+                <div class="about__column">
+                    <div class="item-about">
+                        <div class="item-about__picture">
+                            <img src="img/about/03.png" alt="Not find picture">
+                        </div>
+                        <div class="item-about__title">Marketing</div>
+                        <div class="item-about__describe">We'll help you establish the right goals and build the right paths. Success depends on setting the fight intention</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 style="text-align: center;">How must be</h2>
+    <img src="img/about/example.png">
+
+</body>
+</html>
