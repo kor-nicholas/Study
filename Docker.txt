@@ -1,0 +1,7 @@
+docker ps -a -> check containers, that runs
+docker start <containver-id>
+docker stop <container-id>
+docker remove <container-id>
+
+docker run --name psql-container -p 5432:5432 -e POSTGRES_PASSWORD=myPassword -d postgres -> install and run container
+psql-container -> of.name for postgres container
