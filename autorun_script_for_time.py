@@ -1,6 +1,6 @@
-# pip install shedule requests
+# pip install schedule requests
 
-import shedule
+import schedule
 import requests
 
 def test_func():
