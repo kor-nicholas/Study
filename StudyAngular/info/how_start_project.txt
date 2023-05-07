@@ -1,0 +1,17 @@
+
+ng serve -> index.html hosting and we see
+
+main.ts -> start AppModule(app/app.module.ts) -> 
+NgModule (set and add components in index.html)
+declarations - all components
+imports - import in component
+providers - ?
+bootstrap - AppComponent (for bootstrap) -> AppComponent ->
+in AppComponent 'selector' - for tag in index.html (+templateUrl and styleUrls)
+-> show html from templateUrl (app.component.html), 
+where we write tag=component in index.html
+
+
+
+
+

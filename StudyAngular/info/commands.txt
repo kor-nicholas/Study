@@ -1,0 +1,8 @@
+ng new <project-name> -> create new Angular project
+ng version -> check version for Angular, Node JS, npm, Typescript
+ng serve / npm start -> start Angilar project (4200 port)
+ng generate(g) component(c) <name> - create new component
+
+npm install --save bootstrap@3 -> install local module boodstrap with 3 version (only for this project)
+angular.json->"styles":["src/styles.css", "node_modules/bootstrap/dist/css/bootstrap.min.css"]
+bg serve

@@ -1,0 +1,2 @@
+npx create-react-app name - создать проект
+npm run start - запустить локальный сервер

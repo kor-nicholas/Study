@@ -1,0 +1,50 @@
+
+Add (ServerComponent and AppComponent):
+
+1. Create folder
+2. Create <folder>.component.ts
+
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'app-<folder>',
+    selector: '[app-<folder>]' - attribute, not element/tag
+    selector: '.app-<folder>' - class, not element/tag
+    templateUrl: './<folder>.component.html',
+    template: 'your html code',
+    template: `
+    <app-<folder>></app-<folder>>
+    <app-<folder>></app-<folder>>
+    `,
+    styleUrls: ['./<folder>.component.css'],
+    styles: [`
+        h3 {
+            color: blue;
+        }
+    `]
+})
+export class <Folder>Component {
+
+}
+
+3. Create <folder>.component.html
+4. Create <folder>.component.css
+5. in app.component.module add
+
+import { <Folder>Component } from './<folder>/<folder>.component'
+
+@NgModule({
+    declarations: [
+        ... ,
+        <Folder>Component
+    ],
+    ... ,
+    bootstrap: [... , <Folder>Component]
+})
+
+6. Use selector for component in index.html 
+                    or
+in template for other component
+
+
+

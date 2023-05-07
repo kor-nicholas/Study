@@ -1,0 +1,21 @@
+.tx -> html (ServerComponent, button)
+String Interpolation
+{{ data }} (from exported in component)
+Property Binding
+[property]="data" (data - from exported in component)
+change value for property in html to data from exported component
+
+html -> .ts
+Event Binding
+(event)="expression"
+complete function in exported in component for event(click, ...)
+
+.ts -> html, html -> .ts
+Two-Way-Binding
+[(ngModel)]="data" (data - var in .ts, that change)
+
+
+
+
+
+

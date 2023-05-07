@@ -1,0 +1,56 @@
+<h1>ServerComponent</h1>
+<p>First Id: {{ Ids[0] }}</p>
+<p>{{ 'Status' }}: {{ status }}</p>
+
+<label>Server name</label>
+<input 
+    type="text" 
+    class="form-control"
+    (input)="onUpdateServerName($event)" 
+>
+<p>You input: {{ serverName }}</p>
+
+<label>Server name #2</label>
+<input 
+    type="text" 
+    class="form-control"
+    [(ngModel)]="serverName" 
+>
+<p>You input: {{ serverName }}</p>
+
+<button
+    (click)="onClick()"
+    [disabled]="!allowToClickForButton" 
+    class="btn btn-primary">
+    Click
+</button>
+
+<h1>---------------------------------------------------------</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed molestiae impedit quia ipsum blanditiis. Voluptatibus obcaecati nesciunt beatae enim eius debitis rem nulla magni doloribus illo, quisquam cupiditate amet. Alias.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos itaque, magnam saepe dolores, ullam perspiciatis earum quam amet accusamus libero nam similique magni. Veritatis atque fugiat aut similique magnam rerum!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolor voluptates facere molestiae expedita magni tempore tenetur dolorem aliquid inventore voluptatibus perspiciatis dolore, aliquam consectetur delectus natus? Est, corporis enim?</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum voluptatibus quam impedit, ullam numquam officia itaque laudantium dicta nostrum placeat expedita illum quis est eveniet quisquam, velit id. Eveniet, nulla!</li>
+            </ol>
+            <hr>
+            <label>Username</label>
+            <input 
+                type="text"
+                class="form-control"
+                [(ngModel)]="userName"
+            >
+            <!-- <p>{{ userName }}</p> -->
+            <br>
+            <button
+                class="btn btn-primary"
+                [disabled]="userName === ''"
+                (click)="userName = ''">
+                Reset username
+            </button>
+        </div>
+    </div>
+</div>
