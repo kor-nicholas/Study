@@ -1,0 +1,5 @@
+BOT_TOKEN=''
+KUNA_PRIVATE = ""
+KUNA_PUBLIC = ""
+WALLET_ID = "ltc-"
+CHAT_GROUP_ID = 

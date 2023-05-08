@@ -1,0 +1,27 @@
+1. добавляем buildpack (на сайте)
+2. requiremenets.txt (назвы либ и их версий)
+3. Procfile (worker: python bot.py)
+4. runtime.txt (python-3.10.4)
+4. heroku login
+5. git init - создание репозитория
+6. heroku git:remote -a название приложения
+7. git add . - добавление всех файлов в репозиторий
+8. git commit -am "bkjdg" - подтверждение добавления файлов, с коментарием
+9. git push heroku master
+10. heroku ps:scale worker=1 (1 - вкл; 0 - выкл)
+
+Есть лимит: 550часов/месяц | 17часов/день
+при авто-пробуждении heroku приложения через UptimeRobot (так как каждые 30 минут бот засыпает) - 20дней/месяц
+
+Настройка вебхуков:
+https://docs.aiogram.dev/en/latest/examples/webhook_example.html
+https://momentum-bots.top/blog/2018/05/24/botheroku - вебхук + обход лимита
+https://www.youtube.com/watch?v=jC55EM-PP6Q
+
+Это более чем хорошо описано в примерах из документации - docs.aiogram.dev/en/latest/examples/webhook_example.html . 
+Фактически нужно заменить только executor.start_polling на executor.start_webhook(), 
+да реализовать две функции - on_startup() и on_shutdown(), 
+внутри которых вызывать регистрацию вебхука(bot.set_webhook()) при старте и 
+его удаление при остановке бота(bot.delete_webhook())
+
+Почта : (ko..st.._)

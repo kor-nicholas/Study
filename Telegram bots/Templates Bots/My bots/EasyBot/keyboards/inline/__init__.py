@@ -1,0 +1,1 @@
+from .test_inline import buy_1,buy_2_1,buy_2_2,buy_visa_2,buy_visa_1

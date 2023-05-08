@@ -1,0 +1,10 @@
+App name: Test_bot_145
+(500.000 тестовых запросов)
+
+api key: O6wK4c7IWvPSxlqr569XQQH8l
+
+api key secret: XrnMOmdgrbnfpBHhQlU5mEo3fyaHmRAveokKEm1oBo0hRP0MWS
+
+bearer token: AAAAAAAAAAAAAAAAAAAAAF70aQEAAAAAKSObU%2FnkOvCky6whmza3BIdemJQ%3DMuTfwlZsOBxOHf1FJejIvpkXLk0lTpYomqASC0lwvT1YI95Dpo
+
+Мой твиттер id: 955518511232806912 (https://tweeterid.com/)
