@@ -21,7 +21,7 @@ exiftool <file-name> - check metadata from photo
 passwd <user> - change pass for user (passwd - for root)
 mc - show all folders and files graphlie in terminal
 curl ident.me/ifconfig.me - check your out-ip
-neofetch - info about system
+neofetch/hostnamectl - info about system
 uname -m - check 32/64 bit for system (x86_64 -> 64 bit, x86, i686, i386 -> 32 bit)
 
 Hotkeys:
