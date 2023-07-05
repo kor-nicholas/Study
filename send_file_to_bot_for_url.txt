@@ -1,1 +1,0 @@
-curl -X POST -H 'Content-Type: multipart/form-data' -F document=@"<path-to-file>" https://api.telegram.org/bot<token>/sendDocument?chat_id=<chat-id>
