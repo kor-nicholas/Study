@@ -10,8 +10,12 @@ import java.util.Arrays;
 public class Person {
     private int id;
     private String name;
-    @MyAutowired(required = false)
+//    @MyAutowired(required = false)
     private Product product1;
+    @MyAutowired
+    private void setProduct(Product product) {
+        this.product1 = product;
+    }
 
     @PostConstruct
     private void showData() {
