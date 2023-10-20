@@ -1,68 +1,76 @@
 package com.study.mytransactional;
 
-import jakarta.annotation.Resource;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanPostProcessor;
-import org.springframework.cglib.proxy.Enhancer;
-import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.PlatformTransactionManager;
-import org.springframework.transaction.TransactionManager;
-import org.springframework.transaction.reactive.TransactionContextManager;
-import org.springframework.transaction.support.TransactionTemplate;
+import org.springframework.transaction.TransactionStatus;
+import org.springframework.transaction.support.DefaultTransactionDefinition;
 
-import javax.sql.DataSource;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
-import java.util.logging.Logger;
+import java.util.List;
 
-//@Component
-//public class MyTransactionalAnnotationBeanPostProcessor implements BeanPostProcessor {
-//    @Autowired
-//    PlatformTransactionManager transactionManager;
-//    private Logger logger = Logger.getLogger(String.valueOf(MyTransactionalAnnotationBeanPostProcessor.class));
-//    private Map<String, Class<?>> map = new HashMap<>();
-//    @Override
-//    public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
-//        var methods = bean.getClass().getDeclaredMethods();
-//        for (var method: methods) {
-////            if (method.isAnnotationPresent(MyTransactional.class)) {
-////                logger.info("put: " +  beanName);
-////                map.put(beanName, bean.getClass());
-////            }
-//        }
-//
-//        if (bean.getClass().isAnnotationPresent(MyTransactional.class)) {
-//            map.put(beanName, bean.getClass());
-//        }
-//
-//        return bean;
-//    }
-//
-//    @Override
-//    public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
-//        Class beanClass = map.get(beanName);
-//        if (beanClass != null && beanName.equals("myService")) {
-//            return Proxy.newProxyInstance(beanClass.getClass().getClassLoader(), beanClass.getClass().getInterfaces(), new InvocationHandler() {
-//                @Override
-//                public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-//                    logger.info("Method: " + method.getName());
-//                    return method.invoke(bean, args);
-//                }
-//            });
-//        }
-//
-////        if (beanName.contains("myService")) {
-////            Enhancer enhacher = new Enhancer();
-////            enhacher.setSuperclass(bean.getClass());
-////            enhacher.setCallback(new MyMethodInterceptor());
-////            return enhacher.create();
-////        }
-//
-//        return bean;
-//    }
-//}
+@Component
+@Slf4j
+public class MyTransactionalAnnotationBeanPostProcessor implements BeanPostProcessor {
+    @Autowired
+    PlatformTransactionManager transactionManager;
+    HashMap<String, Class> mapOfBean = new HashMap<>();
+    @Override
+    public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
+        if (!mapOfBean.isEmpty()) {
+            mapOfBean.clear();
+        }
+
+        var methods = bean.getClass().getDeclaredMethods();
+        for (var method : methods) {
+            if (method.isAnnotationPresent(MyTransactional.class) || bean.getClass().isAnnotationPresent(MyTransactional.class)) {
+                mapOfBean.put(beanName, bean.getClass());
+                return bean;
+            }
+        }
+
+        return bean;
+    }
+
+    @Override
+    public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
+        Class beanClass = mapOfBean.get(beanName);
+        if (beanClass != null) {
+            return Proxy.newProxyInstance(
+                    beanClass.getClassLoader(),
+                    beanClass.getInterfaces(),
+                    new InvocationHandler() {
+                        @Override
+                        public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                            Method realBeanMethod = beanClass.getDeclaredMethod(method.getName());
+                            if (realBeanMethod.isAnnotationPresent(MyTransactional.class) || bean.getClass().isAnnotationPresent(MyTransactional.class)) {
+                                log.info("Proxy method " + method.getName());
+                                var definition = new DefaultTransactionDefinition();
+                                var transaction = transactionManager.getTransaction(definition);
+                                try {
+                                    var result = method.invoke(bean, args);
+                                    transactionManager.commit(transaction);
+                                    return result;
+                                } catch (Exception e) {
+                                    transactionManager.rollback(transaction);
+                                    throw e;
+                                }
+                            } else {
+                                return method.invoke(bean, args);
+                            }
+                        }
+                    }
+            );
+        }
+
+        return bean;
+    }
+}

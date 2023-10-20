@@ -4,25 +4,27 @@ import org.springframework.stereotype.Service;
 
 import java.util.Random;
 
-@MyTransactional
 @Service
-public class MyService implements MyInterfaces {
+public class MySecondService implements MyInterfaces {
+    @MyTransactional
     @Override
     public void voidMethod() {
-        System.out.println("MyService:Void method...");
+        System.out.println("MySecondService:Void method...");
     }
 
+    @MyTransactional
     @Override
     public String stringMethod() {
-        System.out.println("MyService:String method...");
-        return "MyService:String method...";
+        System.out.println("MySecondService:String method...");
+        return "MySecondService:String method...";
     }
 
+    @MyTransactional
     @Override
     public int intMethod() {
         Random random = new Random();
         int number = random.nextInt();
-        System.out.printf("MyService:Int method with %s number", number);
+        System.out.printf("MySecondService:Int method with %s number", number);
         return number;
     }
 
@@ -30,7 +32,7 @@ public class MyService implements MyInterfaces {
     public boolean booleanMethod() {
         Random random = new Random();
         boolean bool = random.nextBoolean();
-        System.out.printf("MyService:Boolean method with %s boolean-value", bool);
+        System.out.printf("MySecondService:Boolean method with %s boolean-value", bool);
         return bool;
     }
 }
