@@ -1,0 +1,5 @@
+com.study.defaultidgenerators.DoubleIdGenerator
+com.study.defaultidgenerators.IntIdGenerator
+com.study.defaultidgenerators.UuidIdGenerator
+com.study.defaultidgenerators.StringIdGenerator
+com.study.MyGenerateIdAnnotationBeanPostProcessor

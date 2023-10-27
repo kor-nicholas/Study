@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3f9b040-4b3f-4a65-9e2a-d6eda15be55d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MyGenerateId/src/main/java/com/study/mygenerateid/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyGenerateIdLibrary/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyGenerateIdLibrary/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyGenerateIdLibrary/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyGenerateIdLibrary/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyGenerateIdLibrary/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyGenerateIdLibrary/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyGenerateIdLibrary/src/test/java/com/study/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValue/src/main/java/com/study/myvalue/MyIdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyValue/src/main/java/com/study/myvalue/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTransactional/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTransactional/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTransactional/src/main/java/com/study/mytransactional/MySecondService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTransactional/src/main/java/com/study/mytransactional/MySecondService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTransactional/src/main/java/com/study/mytransactional/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTransactional/src/main/java/com/study/mytransactional/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTransactional/src/main/java/com/study/mytransactional/MyTransactionalAnnotationBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTransactional/src/main/java/com/study/mytransactional/MyTransactionalAnnotationBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTransactional/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTransactional/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValue/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyValue/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValue/src/main/java/com/study/myvalue/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyValue/src/main/java/com/study/myvalue/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyValue/src/main/java/com/study/myvalue/MyValueAnnotationBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyValue/src/main/java/com/study/myvalue/MyValueAnnotationBeanPostProcessor.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2XKvTldVpuinmsaUEQnB3KUMZ7w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3f9b040-4b3f-4a65-9e2a-d6eda15be55d" name="Changes" comment="" />
+      <created>1698390596889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698390596889</updated>
+      <workItem from="1698390597977" duration="2000" />
+    </task>
+    <servers />
+  </component>
+</project>
