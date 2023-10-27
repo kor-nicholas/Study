@@ -28,6 +28,15 @@ git remote add origin <url>
 git pull -r origin main
 git push -u origin main
 
+Uncommit: 
+
+git status - check changes in files and git finds it
+git diff - show changes in code
+git checkout -- <file-name or .> - unset this changes from stage
+git reset <file-name or .> - unset saved changes in stage (after git add)
+git reset --soft HEAD^1 - uncommit last 1 commit and return changes in stage
+git reset --hard HEAD^1 - uncommit last 1 commit and no save changes in stage
+
 Pul-request: 
 
 Работаем по модели пул-реквестов. Почаще делать коммиты, все комментарии и коммиты на русском языке.
