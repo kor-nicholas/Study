@@ -1,0 +1,6 @@
+1. Turn on wsl (Control panel -> in left Turn on and Turn off... -> Windows on Linux)
+wsl --update (or install Windows Subsystems for Linux in Microsofts Store)
+wsl --install -d ubuntu (or install Ubuntu in Microsoft Store) | Debian, ...
+wsl -l -v (check wsl version and state)
+Shift + right button -> open here distribution linux (open linux here)
+Settings -> Apps -> <distribution-name> -> delete
