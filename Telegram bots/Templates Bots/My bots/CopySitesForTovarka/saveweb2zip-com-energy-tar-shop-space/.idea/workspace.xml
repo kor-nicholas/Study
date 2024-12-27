@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f6c86c6-3911-4f69-bb43-5d1258410c8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CopySitesForTovarka/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdGeneratorMaven/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdGeneratorMaven/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdGeneratorMaven/src/main/java/com/study/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdGeneratorMaven/src/test/java/com/study/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Maven/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Maven/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Maven/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Maven/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Maven/src/main/java/org/study/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Maven/src/main/java/org/study/IdGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Maven/src/test/java/org/study/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyGenerateId/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyGenerateId/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyGenerateId/src/main/java/com/study/mygenerateid/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyGenerateId/src/main/java/com/study/mygenerateid/entities/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyGenerateId/src/main/java/com/study/mygenerateid/idgenerators/MyDoubleIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyGenerateId/src/main/java/com/study/mygenerateid/idgenerators/MyDoubleIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyGenerateId/src/main/java/com/study/mygenerateid/idgenerators/MyIntIdGeneratorImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyGenerateId/src/main/java/com/study/mygenerateid/idgenerators/MyIntIdGeneratorImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyGenerateIdLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyGenerateIdLibrary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyGenerateIdLibrary/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyGenerateIdLibrary/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyGenerateIdLibrary/src/main/java/com/study/MyGenerateIdAnnotationBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyGenerateIdLibrary/src/main/java/com/study/MyGenerateIdAnnotationBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyGenerateIdLibrary/src/main/java/com/study/defaultidgenerators/DoubleIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyGenerateIdLibrary/src/main/java/com/study/defaultidgenerators/DoubleIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyGenerateIdLibrary/src/main/java/com/study/defaultidgenerators/IntIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyGenerateIdLibrary/src/main/java/com/study/defaultidgenerators/IntIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyGenerateIdLibrary/src/main/java/com/study/defaultidgenerators/StringIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyGenerateIdLibrary/src/main/java/com/study/defaultidgenerators/StringIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyGenerateIdLibrary/src/main/java/com/study/defaultidgenerators/UuidIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyGenerateIdLibrary/src/main/java/com/study/defaultidgenerators/UuidIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyGenerateIdLibrary/src/main/resources/META-INF/spring/components" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyGenerateIdLibrary/src/main/resources/META-INF/spring/components" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTransactional/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyTransactional/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTransactional/src/main/java/com/study/mytransactional/MySecondService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyTransactional/src/main/java/com/study/mytransactional/MySecondService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTransactional/src/main/java/com/study/mytransactional/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyTransactional/src/main/java/com/study/mytransactional/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTransactional/src/main/java/com/study/mytransactional/MyTransactionalAnnotationBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyTransactional/src/main/java/com/study/mytransactional/MyTransactionalAnnotationBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTransactional/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyTransactional/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyValue/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyValue/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyValue/src/main/java/com/study/myvalue/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyValue/src/main/java/com/study/myvalue/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyValue/src/main/java/com/study/myvalue/MyIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyValue/src/main/java/com/study/myvalue/MyIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyValue/src/main/java/com/study/myvalue/MyValueAnnotationBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyValue/src/main/java/com/study/myvalue/MyValueAnnotationBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyValue/src/main/java/com/study/myvalue/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyValue/src/main/java/com/study/myvalue/Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Test/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Test/src/test/java/com/study/AppTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2lvBmz6rsTM1MH2NeZNnO4K0j5x" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Study/TelegramBots/saveweb2zip-com-energy-tar-shop-space&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/saveweb2zip-com-energy-tar-shop-space/TelegramBots/saveweb2zip-com-energy-tar-shop-space/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f6c86c6-3911-4f69-bb43-5d1258410c8f" name="Changes" comment="" />
+      <created>1726050832204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726050832204</updated>
+      <workItem from="1726050833306" duration="9720000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
