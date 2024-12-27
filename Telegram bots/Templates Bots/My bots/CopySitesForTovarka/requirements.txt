@@ -1,0 +1,8 @@
+aiohttp==3.9.0b0
+aiogram<3.0
+environs~=8.0.0
+requests
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+gspread
